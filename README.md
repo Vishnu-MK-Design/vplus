@@ -4,6 +4,8 @@
 
 Independent product and interaction design by **Vishnu MK**, with AI-assisted implementation and verification. This repository contains the Windows application source and a dependable, limited browser demo.
 
+[Read the case study](https://vishnu-mk-design.github.io/portfolio/vplus/index.html) · [Try the live demo](https://vishnu-mk-design.github.io/portfolio/vplus/demo/app/index.html)
+
 ![The real V+ Windows application, with movie artwork and populated discovery collections](public/screenshots/native-home.png)
 
 ## Two ways to explore
