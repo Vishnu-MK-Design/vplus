@@ -1,0 +1,5 @@
+(()=>{'use strict';const api=window.VidlyDesktop,tools=document.querySelector('.header-tools');if(!api?.windowAction||!tools)return;
+ const group=document.createElement('div');group.className='window-controls';group.setAttribute('role','group');group.setAttribute('aria-label','Window controls');const paths={minimize:'M5 12h14',maximize:'M5 5h14v14H5z',restore:'M8 8V4h12v12h-4M4 8h12v12H4z',close:'m6 6 12 12M18 6 6 18'};const svg=name=>'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+paths[name]+'"/></svg>';
+ for(const [action,label] of [['minimize','Minimize'],['maximize','Maximize'],['close','Close']]){const b=document.createElement('button');b.className='window-icon';b.dataset.windowAction=action;b.setAttribute('aria-label',label);b.title=label;b.innerHTML=svg(action);b.onclick=()=>api.windowAction(action);group.append(b);}tools.append(group);
+ api.onWindowState?.(s=>{const b=group.querySelector('[data-window-action=maximize]'),restore=s.maximized||s.fullscreen;b.innerHTML=svg(restore?'restore':'maximize');b.title=restore?'Restore':'Maximize';b.setAttribute('aria-label',b.title);});api.windowAction('state');
+})();

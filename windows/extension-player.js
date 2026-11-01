@@ -1,0 +1,13 @@
+(()=>{let hls,index=0,config,video=document.querySelector('video'),resume=0,watchdog,loading=false,automatic=true;
+const emit=d=>window.dispatchEvent(new CustomEvent('vplus:host',{detail:d}));
+function failed(force=false){if(loading&&!force)return;loading=true;clearTimeout(watchdog);if(config&&(automatic||force)&&index+1<config.streams.length){resume=video.currentTime||resume;index++;load();}else{hls?.stopLoad();const error=document.querySelector('#error');error.hidden=false;error.querySelector('p').textContent='This source could not play. Its file may be unavailable or use an unsupported format.';}}
+function load(){clearTimeout(watchdog);loading=false;hls?.destroy();hls=null;window.__vplusHls=null;const s=config.streams[index];if(!s)return failed();document.querySelector('#error').hidden=true;watchdog=setTimeout(()=>{if(video.readyState<2)failed();},32000);
+if(s.type==='M3U8'&&Hls.isSupported()){hls=new Hls();window.__vplusHls=hls;hls.on(Hls.Events.ERROR,(_e,data)=>{if(data.fatal)failed();});hls.loadSource(s.url);hls.attachMedia(video);}else{video.src=s.url;video.load();video.play().catch(()=>{});}
+window.VPlusPlayer.command('configure',{title:config.title,provider:'extension',providerLabel:config.provider,automatic,kind:'extension',contentKind:config.contentKind,season:config.season,episode:config.episode,contentKey:config.contentKey,streamIndex:index,sourceGroupLabel:'Resolved streams',resumeAt:resume,desktop:true,direct:true,subtitleTracks:config.subtitleTracks||[],previewSource:s.url,sourceOptions:[{id:'auto',name:'Automatic',reason:'Try the available streams automatically'},...config.streams.map((s,i)=>({id:String(i),name:s.name+(s.quality>0?' · '+s.quality+'p':'')}))],selectedSource:String(index)});
+}
+window.VPlusDirect={configure(data){config=data;index=0;automatic=true;resume=Number(data.start)||0;load();}};
+video.addEventListener('loadedmetadata',()=>{if(resume&&Number.isFinite(video.duration))video.currentTime=Math.min(resume,video.duration);video.play().catch(()=>{});});
+video.addEventListener('error',failed);
+window.addEventListener('vplus:host',e=>{const d=e.detail;if(d.type==='NATIVE_SELECT_SOURCE'&&d.provider==='auto'){automatic=true;window.VPlusPlayer.command('configure',{automatic:true});}else if(d.type==='NATIVE_SELECT_SOURCE'&&/^\d+$/.test(d.provider)&&Number(d.provider)<config.streams.length){automatic=false;resume=video.currentTime||0;if(index===Number(d.provider))window.VPlusPlayer.command('configure',{automatic:false});else{index=Number(d.provider);load();}}if(d.type==='NATIVE_SWITCH')failed(true);});
+document.querySelector('#error button').onclick=()=>emit({type:'NATIVE_EXIT'});
+})();

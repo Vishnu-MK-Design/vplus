@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; frame-src https:; script-src 'unsafe-inline'; style-src 'unsafe-inline'">
+<title>Vidly TV player test</title><style>html,body{margin:0;width:100%;height:100%;background:#101113}iframe{border:0;width:100%;height:100%;display:block}</style></head>
+<body><iframe id="player" title="Vidly video player" src="__PLAYER_URL__" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<script>
+(()=>{'use strict';const frame=document.getElementById('player');let nativePort=null;
+window.addEventListener('message',event=>{
+  if(event.data==='VIDLY_NATIVE_PORT'&&event.ports.length===1&&event.source===null&&!nativePort){nativePort=event.ports[0];return;}
+  if(event.origin!=='https://vidly.pro'||event.source!==frame.contentWindow||!nativePort)return;
+  const payload=event.data;if(!payload||payload.type!=='VIDLY_PLAYER_EVENT'||!payload.data)return;
+  const d=payload.data;if(!['play','pause','timeupdate','ended'].includes(d.event)||!Number.isFinite(d.currentTime)||d.currentTime<0)return;
+  nativePort.postMessage(JSON.stringify({type:'VIDLY_PLAYER_EVENT',data:{event:d.event,currentTime:d.currentTime,duration:Number.isFinite(d.duration)?d.duration:0,tmdbId:d.tmdbId,mediaType:d.mediaType,season:d.season,episode:d.episode}}));
+});})();
+</script></body></html>

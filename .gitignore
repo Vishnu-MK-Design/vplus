@@ -1,0 +1,15 @@
+node_modules/
+**/node_modules/
+windows/generated/
+windows/.build/
+dist/
+.tools/
+.env
+.env.*
+!.env.example
+*.log
+*.jks
+*.keystore
+library.json
+thumbs.db
+.DS_Store

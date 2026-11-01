@@ -1,0 +1,12 @@
+{
+  "name": "vplus",
+  "version": "0.6.6",
+  "private": true,
+  "description": "V+ desktop application and licensed browser demo",
+  "scripts": {
+    "demo": "node tools/serve.cjs",
+    "desktop": "npm --prefix windows start",
+    "test": "npm --prefix windows test",
+    "prepare:desktop": "npm --prefix windows run prepare:app"
+  }
+}

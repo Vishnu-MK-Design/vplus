@@ -1,0 +1,2194 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26T19:13:48.44Z",
+  "repositories": [
+    {
+      "id": "cnc",
+      "name": "CNCVerse",
+      "url": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension"
+    },
+    {
+      "id": "phisher",
+      "name": "Phisher",
+      "url": "https://github.com/phisher98/cloudstream-extensions-phisher"
+    }
+  ],
+  "providers": [
+    {
+      "id": "cnc:AniKoto",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "AniKoto",
+      "description": "",
+      "language": "en",
+      "types": [
+        "Anime",
+        "AnimeMovie",
+        "OVA"
+      ],
+      "version": 11,
+      "upstreamStatus": 1,
+      "hash": "sha256-7a9dffe5de406679c382c252f69c7c16cb1b755b2ef7eb35914088e2725d9eab",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:AnimeSuge",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "AnimeSuge",
+      "description": "",
+      "language": "en",
+      "types": [
+        "Anime",
+        "AnimeMovie",
+        "OVA"
+      ],
+      "version": 11,
+      "upstreamStatus": 1,
+      "hash": "sha256-f0c1cde6ebbc30d8ca9612173e4871226e09fe54226c4753769db1816de7c065",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:BilibiliProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "BilibiliProvider",
+      "description": "Bilibili TV - International streaming platform for anime, movies, and variety shows (bilibili.tv)",
+      "language": "ta",
+      "types": [
+        "Anime",
+        "Movies",
+        "TvSeries",
+        "Documentary"
+      ],
+      "version": 37,
+      "upstreamStatus": 3,
+      "hash": "sha256-a16eeeaab62abeba25eb0be5e189b769e319614ca3cb11b114ad9dd5a6cfc82b",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:CastleTvProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "CastleTvProvider",
+      "description": "Castle TV Movies and Series Provider",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 41,
+      "upstreamStatus": 1,
+      "hash": "sha256-fc1308cc9ad0a53b021e757338435c507800ef846b5662d072e6e81766be6db0",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:CineTvProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "CineTvProvider",
+      "description": "Clone of Cinema, Memesapp , FilmTV etc",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 36,
+      "upstreamStatus": 1,
+      "hash": "sha256-e84c3506e21f4af3227f4a56d5c033f3dcb08be7436f3a6ce446b69081f89ca4",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:CineVoodProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "CineVoodProvider",
+      "description": "Bollywood, Hollywood, Hindi dubbed and South movies & series from CineVood",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 3,
+      "upstreamStatus": 1,
+      "hash": "sha256-dc4653a8fc4243eddffda96ffdf574f1038113b04d002dc1e0afd169397a3365",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:CNC Verse",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "CNC Verse",
+      "description": "Netflix, PrimeVideo, Disney+ Hotstar Contents in Multiple Languages",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 115,
+      "upstreamStatus": 1,
+      "hash": "sha256-cd1d9cdf380b6bfd024e3057922cf5b1334592e48c2ff1c3b435c9ea417162a0",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:CNC Verse Mobile",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "CNC Verse Mobile",
+      "description": "NetMirror Mobile API",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-e4c19e7590d8d6aaf558058fab579721d6c751856a6e36110abd629419d58a64",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:CricifyProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "CricifyProvider",
+      "description": "Watch Live sports and TV channels",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 75,
+      "upstreamStatus": 1,
+      "hash": "sha256-cefafae659ae0b6e345af18a7d2b2b7b5c5ff04b566377788f29b759a9439630",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:DesiSerialsProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "DesiSerialsProvider",
+      "description": "Desi Serials Tv Shows Provider",
+      "language": "hi",
+      "types": [
+        "TvSeries"
+      ],
+      "version": 34,
+      "upstreamStatus": 1,
+      "hash": "sha256-faeeb2f7a8ebfa969a5e502acc54695d590a1b06554f59fc4cd4f5e7d9e4bb3a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:DoFlixProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "DoFlixProvider",
+      "description": "DoFlix Provider for Movies and TV Series",
+      "language": "ta",
+      "types": [
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 38,
+      "upstreamStatus": 1,
+      "hash": "sha256-628b3a92208fd980bd7b52bbafeab6338a8561349470af21f8f57e8e3a346acb",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:EinthusanProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "EinthusanProvider",
+      "description": "Indian Multi-language HD Provider",
+      "language": "ta",
+      "types": [
+        "Movie"
+      ],
+      "version": 38,
+      "upstreamStatus": 1,
+      "hash": "sha256-ab58232a69e841bb364aa4ceed0ed758ce9214d6eb0c3604f85a59adbee59b4b",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:GoldenAudiobook",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "GoldenAudiobook",
+      "description": "Audiobooks - Use Picture in Picture or VLC as external player",
+      "language": "en",
+      "types": [
+        "Others"
+      ],
+      "version": 35,
+      "upstreamStatus": 1,
+      "hash": "sha256-8b5b8dddd9d8021502be5472aad549bae435f0f0fff3a848907d3fbf77f4deca",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:HDOProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "HDOProvider",
+      "description": "HDO provider",
+      "language": "ta",
+      "types": [
+        "Movies",
+        "TvSeries"
+      ],
+      "version": 36,
+      "upstreamStatus": 0,
+      "hash": "sha256-5fd88de0ae4db009283e9e3bc9b0fcd6b7c44b0b02c9bc9cdb927226c894b835",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:HDrezkaProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "HDrezkaProvider",
+      "description": "",
+      "language": "ru",
+      "types": [
+        "AsianDrama",
+        "Anime",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 37,
+      "upstreamStatus": 1,
+      "hash": "sha256-c85d141ae567235c791a9beaa003f594271473d7bcb245c117e9a3046782d5f3",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:LibriVoxAudiobook",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "LibriVoxAudiobook",
+      "description": "Audiobooks in public domain",
+      "language": "en",
+      "types": [
+        "Others"
+      ],
+      "version": 35,
+      "upstreamStatus": 1,
+      "hash": "sha256-d7336d8fb29299e789195d966983b732848c5e8e9f7485adfb63007cfa2adee3",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:LivXowProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "LivXowProvider",
+      "description": "Watch Live Sports and TV Channels via LivXow",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 24,
+      "upstreamStatus": 1,
+      "hash": "sha256-24b0e2b9587a028e629347a93e2c3b91e6f4d244f9d6890d367c626b057e6215",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:M3UPlaylistPlayerProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "M3UPlaylistPlayerProvider",
+      "description": "Add your own m3u playlists",
+      "language": "en",
+      "types": [
+        "Live"
+      ],
+      "version": 20,
+      "upstreamStatus": 1,
+      "hash": "sha256-1739a3f2f7b289eb51f73602feb9ac739545c6b5146c718258cb48ef0bcd7da7",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:MLSBDProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "MLSBDProvider",
+      "description": "The largest movie link store in Bangladesh",
+      "language": "bn",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "AnimeMovie",
+        "AsianDrama"
+      ],
+      "version": 36,
+      "upstreamStatus": 1,
+      "hash": "sha256-8b58595ba27f1e274a3f78181f6c425267e2ec09212fa8674b133a006fa48d03",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:MovieBoxProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "MovieBoxProvider",
+      "description": "Multi Language Movies and Series Provider",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 53,
+      "upstreamStatus": 1,
+      "hash": "sha256-aa8e3d1f09ce9988419d3bfacae3fa9d919cc28bc89779ffcc3248eed1a1b0fc",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:MovieBoxProviderIN",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "MovieBoxProviderIN",
+      "description": "Multi Language Movies and Series Provider (Local homepage based on region)",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 55,
+      "upstreamStatus": 1,
+      "hash": "sha256-8d4c0da9b9e8aed485f42fc80921db720a04016327cfd464cae58f7ce4e4c97a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:MovieLinkBDProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "MovieLinkBDProvider",
+      "description": "MovieLinkBD - Largest Movie Download Site in Bangladesh",
+      "language": "bn",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "AnimeMovie",
+        "AsianDrama"
+      ],
+      "version": 26,
+      "upstreamStatus": 1,
+      "hash": "sha256-b1d4282e512fa61783c79aa1dfeb527ef8009099d28f31fa9c019a507e767708",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:MoviezwapProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "MoviezwapProvider",
+      "description": "Telugu Movies Provider - Moviezwap",
+      "language": "te",
+      "types": [
+        "Movie"
+      ],
+      "version": 33,
+      "upstreamStatus": 1,
+      "hash": "sha256-183be86149d36717cf2c540e29737870fa1af3f9d23c3282d9399750f9a81a54",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:PikashowProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "PikashowProvider",
+      "description": "Stream movies and series from Pikashow",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 33,
+      "upstreamStatus": 1,
+      "hash": "sha256-1ea7c40ebcf1372b0df2182a41c554de0a4bd2c628fdc0ecfe3dd49e6e82fbc1",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:PlayFyProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "PlayFyProvider",
+      "description": "Watch Live sports and TV channels via PlayFy",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 18,
+      "upstreamStatus": 1,
+      "hash": "sha256-a65dc2067fb27c78534c6ea5cbc6edce3b10b18ea52d36fd8188b65a80ae933a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:PlayZTVProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "PlayZTVProvider",
+      "description": "Watch Live TV channels & sports via PlayZTV",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 46,
+      "upstreamStatus": 1,
+      "hash": "sha256-9d338234475f0b23a6cf68fab2447f91350fcee626ac69755828ad4e550dc9dd",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:RadioIndiaProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "RadioIndiaProvider",
+      "description": "Radio India Provider",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 34,
+      "upstreamStatus": 1,
+      "hash": "sha256-77a2b26462a48090b136af9b8a02ced6bc281ae761664294d45913170aafc3aa",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:Rtally",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "Rtally",
+      "description": "Movie and TV Series provider",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Anime",
+        "AnimeMovie",
+        "AsianDrama"
+      ],
+      "version": 53,
+      "upstreamStatus": 1,
+      "hash": "sha256-63671bef36f00d8855fbc814b73c99880cbf260a3ccccae81860fea218ba7f35",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:SKTechProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "SKTechProvider",
+      "description": "Watch Live sports and TV channels via SK Tech",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 62,
+      "upstreamStatus": 1,
+      "hash": "sha256-ce400ccfc734adcd8173dd4ab8e4b7588298a31550e5c7b28de7f6848589c7e4",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:SportzxProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "SportzxProvider",
+      "description": "Watch Live Sports Events via SportzX",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 30,
+      "upstreamStatus": 1,
+      "hash": "sha256-18c5b17d642d0f631f038c1c9517f81094900442dd5b570a49555137219493a5",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:StreamFlixProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "StreamFlixProvider",
+      "description": "StreamFlix Multi Language Movies and Series Provider",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Anime"
+      ],
+      "version": 35,
+      "upstreamStatus": 1,
+      "hash": "sha256-6f3a0ea5f3530368577fc48a1387141ce24def231dd629491bfd5cdb6f2967ea",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:SubscriptionManager",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "SubscriptionManager",
+      "description": "Manage your CNCVerse subscription — remove ads with a premium plan",
+      "language": "multi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 17,
+      "upstreamStatus": 1,
+      "hash": "sha256-2ff3f8dd8bc200cd7b912e9e9453ab7ff287ff3646aa6a6571b20a668d05e09e",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:TamilDhoolProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "TamilDhoolProvider",
+      "description": "Tamil Tv Serial/Shows Provider",
+      "language": "ta",
+      "types": [
+        "TvSeries"
+      ],
+      "version": 41,
+      "upstreamStatus": 1,
+      "hash": "sha256-365f611b999fabe344f7e4d664b8b6fa470502bf4ee5acd5bddf193374372535",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:Tamilian",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "Tamilian",
+      "description": "Movies (Tamil)",
+      "language": "ta",
+      "types": [
+        "Movies"
+      ],
+      "version": 33,
+      "upstreamStatus": 1,
+      "hash": "sha256-19f66faf159c9854abb5ca23429b9ecd5dc8a4ae3193cae701297149b0b64651",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:TamilUltraProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "TamilUltraProvider",
+      "description": "Indian Live TV Provider",
+      "language": "ta",
+      "types": [
+        "Live"
+      ],
+      "version": 41,
+      "upstreamStatus": 1,
+      "hash": "sha256-6481080a23572c4a22cbf70fdf7ae146f158d97ad235c5311a10e82d04545b2c",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:VegaMoviesProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "VegaMoviesProvider",
+      "description": "VegaMovies and Rogmovies: Bollywood, Hollywood, dubbed movies, series, anime and K-dramas",
+      "language": "hi",
+      "types": [
+        "TvSeries",
+        "Movie",
+        "AsianDrama",
+        "Anime"
+      ],
+      "version": 1,
+      "upstreamStatus": 1,
+      "hash": "sha256-3806d3c074f1f0589c31fb2bc183ffef4bae2b8cfe01238b6637cca0d02622ec",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:Watch32",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "Watch32",
+      "description": "Watch32 is a Free Movies streaming site with over 10000 movies and TV-Series.",
+      "language": "en",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 36,
+      "upstreamStatus": 1,
+      "hash": "sha256-1b628e071356dc2b1dbcf36deb4beb0681ef1d3089bf7e751a5a2a4aae1842cd",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "cnc:XonProvider",
+      "repository": "CNCVerse",
+      "repositoryUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension",
+      "name": "XonProvider",
+      "description": "Xon Provider for Anime and Cartoons - Tamil, Hindi, Telugu, English, Japanese",
+      "language": "ta",
+      "types": [
+        "TvSeries",
+        "Movie",
+        "Anime"
+      ],
+      "version": 36,
+      "upstreamStatus": 1,
+      "hash": "sha256-378437af9441cf14f4d82647501eb0339acaf069ff26f3e84b780db96aa6fb09",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AllMovieLandProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AllMovieLandProvider",
+      "description": "Indian MultiLanguage Provider (Mostly Hindi)",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Cartoon"
+      ],
+      "version": 25,
+      "upstreamStatus": 1,
+      "hash": "sha256-1282e16296bcb80dfe5c07e5aed8dda0ca4a744973abaa000ef0a3d714aa09d7",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AllWish",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AllWish",
+      "description": "Anime from all-wish.me",
+      "language": "en",
+      "types": [
+        "All"
+      ],
+      "version": 18,
+      "upstreamStatus": 1,
+      "hash": "sha256-8a23a86456abada48ff7cc7e9af6b5ae7e833accf19a56fe6001e18aab833d23",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Anichi",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Anichi",
+      "description": "AllManga/Mkissa Source",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 29,
+      "upstreamStatus": 1,
+      "hash": "sha256-2f05a1c836915a0afb5b467d65e067ade30d970f4410dc183df8a72d3ea8d2aa",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Anikage",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Anikage",
+      "description": "",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 8,
+      "upstreamStatus": 1,
+      "hash": "sha256-fb659eedaf4c24edb06f0a1fc1131cd8abd9393e4d7bf00f5dc9bd4e563e951f",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AniKoto",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AniKoto",
+      "description": "AniKoto",
+      "language": "en",
+      "types": [
+        "Anime",
+        "AnimeMovie"
+      ],
+      "version": 6,
+      "upstreamStatus": 1,
+      "hash": "sha256-d9e69451709aa0386b1c99148239bf8e32c827e5fc4d603ef71095c889719e20",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Anilight",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Anilight",
+      "description": "Anilight Anime Provider",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 4,
+      "upstreamStatus": 1,
+      "hash": "sha256-59ba99000f8bb9dd90655ff2f609f3e52651acb7bfbf8d2db85c77e005b8dd1e",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Animeav1",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Animeav1",
+      "description": "(Mexican) Anime Extension",
+      "language": "mx",
+      "types": [
+        "Movie",
+        "Anime",
+        "AnimeMovie"
+      ],
+      "version": 9,
+      "upstreamStatus": 1,
+      "hash": "sha256-f19a25a7d60c359e6f0127f226907314882df75753cf4a40df03cf77f34cd32a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AnimeCloud",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AnimeCloud",
+      "description": "German (Lang) Anime",
+      "language": "de",
+      "types": [
+        "Anime"
+      ],
+      "version": 11,
+      "upstreamStatus": 1,
+      "hash": "sha256-0c2cde0838538b418f3f9ae67596d43bc0f624d8da43120af5b5c54c671d4ba9",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AnimeDekhoProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AnimeDekhoProvider",
+      "description": "Includes AnimeDekho,OnePace(DUB,SUB) and HindiSubAnime",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 72,
+      "upstreamStatus": 1,
+      "hash": "sha256-4d418aaf48fc722ebd6f3ed7acff2d259ee1ba468b71b5424f795beda09f0677",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Animedubhindi",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Animedubhindi",
+      "description": "Anime in Multi Lang",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 9,
+      "upstreamStatus": 1,
+      "hash": "sha256-b48590ac51f0e59f1bee0ea8b514b7320677d6738cb6dde20beb95ba2c9ce572",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Animekhor",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Animekhor",
+      "description": "Anime and Movies includes (Donghuaword)",
+      "language": "zh",
+      "types": [
+        "AnimeMovie",
+        "Anime"
+      ],
+      "version": 13,
+      "upstreamStatus": 1,
+      "hash": "sha256-5822fff54a3d61af1013ccd5271f929a3d4f663ec7ff35e41f671c3102c1f25a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Animenosub",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Animenosub",
+      "description": "Anime and Movies",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-fcca81982b66c5bfdc3b29d373ba9c835ccdac013b39b767242e9ea7248bb804",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AnimePahe",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AnimePahe",
+      "description": "Animes (SUB/DUB)",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 47,
+      "upstreamStatus": 1,
+      "hash": "sha256-854ba2cb8fc6d35f52ab641663310e37ff3c00d602dcace08e2c589d6c9ed29f",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Animesalt",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Animesalt",
+      "description": "Anime/Cartoon in Hindi",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 18,
+      "upstreamStatus": 1,
+      "hash": "sha256-5d5c518dc7ff13066b1c155d661d4afde2ac4b24b1510b27fdd4fe2eac32e1f1",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Animexin",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Animexin",
+      "description": "Anime and Movies",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 16,
+      "upstreamStatus": 1,
+      "hash": "sha256-04a3d72b0168011cfe36a14063ac01a27a756ff5483792c0e4fa07900b0b25fc",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AniPm",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AniPm",
+      "description": "AniPm - Watch Anime Online Free",
+      "language": "en",
+      "types": [
+        "Anime",
+        "AnimeMovie",
+        "OVA"
+      ],
+      "version": 1,
+      "upstreamStatus": 1,
+      "hash": "sha256-3c500f351c34ca8d6be59d0b7110c60aca00b20bfff18d6431c7aaca68a02fb8",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AniSnatch",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AniSnatch",
+      "description": "AniSnatch - Watch Anime Online Free",
+      "language": "en",
+      "types": [
+        "Anime",
+        "AnimeMovie",
+        "OVA"
+      ],
+      "version": 2,
+      "upstreamStatus": 1,
+      "hash": "sha256-d85fe7438ecca21f0a6c8da5580fb271b2e0688d4deecc9a07481c40b99da47e",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:AniVortex",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "AniVortex",
+      "description": "AniVortex — Anime, movies & TV series streaming",
+      "language": "hi",
+      "types": [
+        "Anime",
+        "AnimeMovie",
+        "OVA",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 10,
+      "upstreamStatus": 1,
+      "hash": "sha256-5751039f0fbf4f2db6ec7974bbabc85f1801f05b15b968174f2823150d7fdfce",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Aniworld",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Aniworld",
+      "description": "Include: Serienstream (Login Required under Extension Settings)",
+      "language": "de",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 15,
+      "upstreamStatus": 1,
+      "hash": "sha256-19067819b7252edc2a37ae0d57822abef3c3ddfe7cb319beff0fa09176d4c4ff",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Anizone",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Anizone",
+      "description": "Anizone.to streams latest anime content in multiple language.",
+      "language": "en",
+      "types": [
+        "Anime"
+      ],
+      "version": 10,
+      "upstreamStatus": 1,
+      "hash": "sha256-baba187a9f3e0c93c1b539bec269847b7b18d1734c8cff164851c1326e4ed9e7",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:BanglaPlex",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "BanglaPlex",
+      "description": "BanglaPlex",
+      "language": "bn",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 8,
+      "upstreamStatus": 1,
+      "hash": "sha256-5d91bf4808b0199011e5d992ed59955a29b7aa44e390ec85bac205fe7b736814",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Chikianimation",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Chikianimation",
+      "description": "English anime and donghua from chikianimation.com",
+      "language": "zh",
+      "types": [
+        "AnimeMovie",
+        "Anime"
+      ],
+      "version": 2,
+      "upstreamStatus": 1,
+      "hash": "sha256-463cd68d874eaaab02636de6180e4fc9f564451c3478454c98d54e621930c0e1",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Cinefreak",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Cinefreak",
+      "description": "Bangla/Hindi Movies/Series",
+      "language": "bn",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Anime"
+      ],
+      "version": 21,
+      "upstreamStatus": 1,
+      "hash": "sha256-4d73d1a2de42a2f8baf9a27ff0ef5392cf486d6ff040f4701e371332ea1ea831",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Cinemacity",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Cinemacity",
+      "description": "Watch Movies & TvSeries (Multi-Lang/Audio)",
+      "language": "en",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 27,
+      "upstreamStatus": 1,
+      "hash": "sha256-afd3429a2c781d5f9de6ec4d02d706af4ae8789caa3ddc4d8603d02d2473584c",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Coflix",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Coflix",
+      "description": "Movies,Series and Anime French Extension ",
+      "language": "fr",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 19,
+      "upstreamStatus": 1,
+      "hash": "sha256-9d2f39b5f0c4b6fea71b54a2906b5578d9692931d4ef6a2be9bc4739b5328b31",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Comix",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Comix",
+      "description": "Comix — Read Manga, Manhwa, and Comics directly in CloudStream with custom reader.",
+      "language": "en",
+      "types": [
+        "Others",
+        "Anime"
+      ],
+      "version": 3,
+      "upstreamStatus": 1,
+      "hash": "sha256-6fa0f3d5117d8447ebf5d14438147e0f1fe7f40d426464c6eed71edba4778a09",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Desicinemas",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Desicinemas",
+      "description": "Contains BollyZone",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 19,
+      "upstreamStatus": 1,
+      "hash": "sha256-82519a35071acab4da92b1beb135a6c8212645e4b68d5fbc1f3dd7a72895de34",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Donghuastream",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Donghuastream",
+      "description": "Contains SeaTV (Chinese)",
+      "language": "zh",
+      "types": [
+        "Anime"
+      ],
+      "version": 22,
+      "upstreamStatus": 1,
+      "hash": "sha256-18906363f003a3336aade2ca80ee1de6191e16651b3e96ecbfedd5e64a4b56c8",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:DoraBash",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "DoraBash",
+      "description": "Doremon Show in Hindi",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 14,
+      "upstreamStatus": 1,
+      "hash": "sha256-519970d35ddbaf42ece843364ba0057ba0d09c19f22be426c894568e12ac59ce",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:DudeFilms",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "DudeFilms",
+      "description": "Watch Movies & TvSeries (Multi-Lang)",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 14,
+      "upstreamStatus": 1,
+      "hash": "sha256-c2c1ebd9c15e6c22f765cbfc66f50377bc8acc091e9fd24421a0498eb08faeca",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Fibwatch",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Fibwatch",
+      "description": "",
+      "language": "bn",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-250010390d208802e2e5b2ed3fb9366798f33cca157af5af98cb7aac93808341",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Fivemovierulz",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Fivemovierulz",
+      "description": "Movies & Series",
+      "language": "hi",
+      "types": [
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 8,
+      "upstreamStatus": 1,
+      "hash": "sha256-8ad0b50543444160e49e8a164371da5494c481fad14d3a81596ab264ea56e9b8",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:FourKHDHub",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "FourKHDHub",
+      "description": "4K Movies Extension by HDHUB4U",
+      "language": "en",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 41,
+      "upstreamStatus": 1,
+      "hash": "sha256-115e68963b012d736422d091153a5f6969909f7ba3e55d381317428bdf067381",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:GoldenAudiobooks",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "GoldenAudiobooks",
+      "description": "GoldenAudiobooks — Free online audiobooks streaming with chapter navigation.",
+      "language": "en",
+      "types": [
+        "Others"
+      ],
+      "version": 1,
+      "upstreamStatus": 1,
+      "hash": "sha256-9c013872a35cf22d0110ac263b944564f4b899a62324c4005556dafb2e3595cc",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Goojara",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Goojara",
+      "description": "Movies and Series (Mostly 720p)",
+      "language": "en",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-1ef3e1f647cd3aa520b65de817393fa6d87e4063c26456c729869123e86296d0",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:HDhub4u",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "HDhub4u",
+      "description": "",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Anime"
+      ],
+      "version": 57,
+      "upstreamStatus": 1,
+      "hash": "sha256-9013b566ee66cd761dc9fe327996aeca7f27370cd1b278fa5cab9cf1472f9256",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Hdmovie2",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Hdmovie2",
+      "description": "Hdmovie2",
+      "language": "hi",
+      "types": [
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 6,
+      "upstreamStatus": 1,
+      "hash": "sha256-a0d3ebf3531162f5cc89fdc13e1ae4e8fa9886878d2e7645d64a692dcd635ed6",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:HiAnime",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "HiAnime",
+      "description": "",
+      "language": "en",
+      "types": [
+        "Anime",
+        "OVA"
+      ],
+      "version": 2,
+      "upstreamStatus": 1,
+      "hash": "sha256-82e56188b75c022731975a2c1118842e8ad8f3bab4a5a31c0617e3b67fd96fe9",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Hindmoviez",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Hindmoviez",
+      "description": "Watch Movies & TvSeries (Multi-Lang)",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 17,
+      "upstreamStatus": 1,
+      "hash": "sha256-19dc763a3506d86ab4750c8490a2e8a3f80e56c55e962c0620b06fe90a1b756a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:IdlixProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "IdlixProvider",
+      "description": "",
+      "language": "id",
+      "types": [
+        "TvSeries",
+        "Movie",
+        "Anime",
+        "AsianDrama"
+      ],
+      "version": 17,
+      "upstreamStatus": 1,
+      "hash": "sha256-ac8493e9f016f4642d9262b68c8ea1384c7d24d12d123d2a9db7f47df1e561a6",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:IPTVPlayer",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "IPTVPlayer",
+      "description": "IPTV Player",
+      "language": "hi",
+      "types": [
+        "Live"
+      ],
+      "version": 9,
+      "upstreamStatus": 1,
+      "hash": "sha256-f0ce5beaee3f4c58c4639394a3af5300c09e898ef61d91c0f3e25fbcca82a5ca",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:IStreamFlare",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "IStreamFlare",
+      "description": "Movies/Series/Anime",
+      "language": "hi",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie",
+        "Cartoon",
+        "AnimeMovie"
+      ],
+      "version": 6,
+      "upstreamStatus": 1,
+      "hash": "sha256-f850ff3abbba6cdc0d7b7f8f21d3ee805a9abd71e65c29d279884267955c8865",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Jellyfin",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Jellyfin",
+      "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie",
+        "Cartoon",
+        "AnimeMovie"
+      ],
+      "version": 7,
+      "upstreamStatus": 1,
+      "hash": "sha256-a5bf4166df80220465a9ca7160de35d494b01aa13a02dbff842d05f77f4ea037",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Kartoons",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Kartoons",
+      "description": "Kartoons (Cartoon & Animes)",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 6,
+      "upstreamStatus": 1,
+      "hash": "sha256-91e3fa67c3181be1372203fcd4927560801e6f746a759350e3a87705646f5fc5",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Kickassanime",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Kickassanime",
+      "description": "",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 29,
+      "upstreamStatus": 1,
+      "hash": "sha256-1f49be16fc52579dc8b6877d88bd921a8edf5a400b214d15df037509f47bd49d",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:KisskhProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "KisskhProvider",
+      "description": "",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie"
+      ],
+      "version": 24,
+      "upstreamStatus": 1,
+      "hash": "sha256-596cda263feeef775548970606bfbc4f61c49fe08025e19588551989c61cc86c",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Latanime",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Latanime",
+      "description": "(Mexican) Anime Extension",
+      "language": "mx",
+      "types": [
+        "Movie",
+        "Anime",
+        "AnimeMovie"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-7ac2f9e5b1c325acddca10d5d2635d896a340e68ced34ce82b7834160889826a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:LayarKacaProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "LayarKacaProvider",
+      "description": "",
+      "language": "id",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 10,
+      "upstreamStatus": 1,
+      "hash": "sha256-db0c8643377a03fbed0c7553fb93e863f3f170e06c8cfec348f5ce989c8c3b93",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:MassTamilanProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "MassTamilanProvider",
+      "description": "Indian Multi-language Music Provider",
+      "language": "ta",
+      "types": [
+        "Music",
+        "Movie"
+      ],
+      "version": 9,
+      "upstreamStatus": 1,
+      "hash": "sha256-29a830b1e1707d49b5ba2320babbed79d1758f93625def71da4724baf84f446e",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Megakino",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Megakino",
+      "description": "Movies,Series and Anime German Extension ",
+      "language": "de",
+      "types": [
+        "Movie,Anime,Cartoon"
+      ],
+      "version": 6,
+      "upstreamStatus": 1,
+      "hash": "sha256-acdd90e2af263e8735ff55d9562ea482a5af582323ceb064348b5fed74fb5903",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Microtv",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Microtv",
+      "description": "Watch short vertical dramas & reels from multiple Indian short platforms",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 3,
+      "upstreamStatus": 1,
+      "hash": "sha256-690e4b67ce6c653147b1d3a1075be5df7df6166045f9e66a91d6e59ea7774b1d",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:MovieBoxProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "MovieBoxProvider",
+      "description": "Multi Language Movies and Series Provider",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 39,
+      "upstreamStatus": 1,
+      "hash": "sha256-79d3b0264756c539a05438b7c92282745a1041ef2a87fbbd3bd70ccf80ebe29c",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Movies4u",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Movies4u",
+      "description": "Movies4u",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 18,
+      "upstreamStatus": 1,
+      "hash": "sha256-cb3dff6df9912334b6230918b88cb3b2730e3b1f56bb5657c18a01bf8a3fc44a",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:MPlayerProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "MPlayerProvider",
+      "description": "Indian Movies/Series/Kdrama(Hindi Dubbed)",
+      "language": "hi",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 9,
+      "upstreamStatus": 1,
+      "hash": "sha256-3cbfc812f4552ec70f5f3e57109fbd1cd99337b94c84cd53d61ae5d6d6fe4b44",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:MultiMoviesProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "MultiMoviesProvider",
+      "description": "Indian Multi-language HD Provider",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Anime"
+      ],
+      "version": 55,
+      "upstreamStatus": 1,
+      "hash": "sha256-86a994d654cd738591399be533f998fa5a294e22dd91f710326c689742e8c93b",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Netcinez",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Netcinez",
+      "description": "Movies,Series and Anime Portuguese Extension ",
+      "language": "pt-br",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-cb99bd5efd06331004daee298f1b49a5ecfc8e0b79f19c5d4597433f51df35de",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:ObejrzyjTo",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "ObejrzyjTo",
+      "description": "Obejrzyj.to - Polski serwis z darmowymi filmami i serialami online",
+      "language": "pl",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 3,
+      "upstreamStatus": 1,
+      "hash": "sha256-c287c757c514fce8a5090f8cc13bd58b04dcd9f257ddb3f0accc0cb85bed61a5",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:OHLI24",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "OHLI24",
+      "description": "Anime and movies with Korean subtitles only (no Korean audio)",
+      "language": "ko",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 7,
+      "upstreamStatus": 1,
+      "hash": "sha256-04a1b62f593f306f480f73fcf039765020a3347d5c1ed8e172894eb5108d821f",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:OnePace",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "OnePace",
+      "description": "One Pace",
+      "language": "en",
+      "types": [
+        "Anime"
+      ],
+      "version": 23,
+      "upstreamStatus": 1,
+      "hash": "sha256-f597ba00c56485ca2cdd1483643e97ce8e69bd5aa0eee972fa66e80412e61ebb",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:OneTouchTV",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "OneTouchTV",
+      "description": "Asian Dramas",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "TvSeries"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-7dd31f9edd6e11b192c9afa5614bd3dcab35d2b93a186390446a1889bfd2e62d",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Pencurimovie",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Pencurimovie",
+      "description": "Pencurimovie ",
+      "language": "id",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 8,
+      "upstreamStatus": 1,
+      "hash": "sha256-62a7bb04b56644df5e1c6f6a27835794eafc3f0f620d4289c7be6a54e391a829",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Pinoymoviepedia",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Pinoymoviepedia",
+      "description": "Contains Bluray7",
+      "language": "fil",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-67cfeb4a1e5e9a2d68c3080458ea1499bfb439d51582ea9836aec7cc42fbad20",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Piratexplay",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Piratexplay",
+      "description": "Anime/Cartoon in Hindi",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-811e5b4a03db081c90085bb7291db5d222ec7a71d12b51c2822ea4a624450a4b",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Pmsm",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Pmsm",
+      "description": "PMSM (Pencuri Movie Sub Malay)",
+      "language": "id",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 8,
+      "upstreamStatus": 1,
+      "hash": "sha256-15108eaded73e2669bd7c1911df457105de60b4bb56d3cc028e5c43bdc218692",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:PublicSportsIPTV",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "PublicSportsIPTV",
+      "description": "Sports Live Streams (FanCode)",
+      "language": "en",
+      "types": [
+        "Live"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-4174425ad2a56bfa6488c4d5d58e242f9e9d09aeaae7ac81cbe4a7aa11c61476",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:QuickIPTV",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "QuickIPTV",
+      "description": "Includes PirateIPTV,Sports IPTV,Japanese IPTV,Sony IPTV",
+      "language": "en",
+      "types": [
+        "Live"
+      ],
+      "version": 8,
+      "upstreamStatus": 1,
+      "hash": "sha256-9a6e3e1e37790b356eb234bed7950026e5064bb0480bfa2cf5d1e9d178c5ebee",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Reanime",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Reanime",
+      "description": "",
+      "language": "en",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "OVA"
+      ],
+      "version": 3,
+      "upstreamStatus": 1,
+      "hash": "sha256-ed37cbeb9ad7d2d8f69cb40eb4052d37a82f542776a66bf08776f5e6c0c6a79c",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:RingZ",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "RingZ",
+      "description": "Ringz App",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-01c4683fee442b28822fa5d0cdc6da0a03948562338390ab50b989a6c0fa0c75",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:ShowBox",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "ShowBox",
+      "description": "ShowBox (Retrieve the cookie using Login with Google to properly utilize ShowBox.",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "Anime",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 10,
+      "upstreamStatus": 1,
+      "hash": "sha256-bbe304893182d8251154d18b02b238b57f4df5d3bb6b673b6ea7bf08166eb1af",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:StreamPlay",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "StreamPlay",
+      "description": "#1 best extention based on MultiAPI",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie",
+        "Cartoon",
+        "AnimeMovie"
+      ],
+      "version": 692,
+      "upstreamStatus": 1,
+      "hash": "sha256-2a1f8d88980b01fe10fa03288d24911e725ad2fbad1ecb2b363e3ad55c8a861b",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:StremioAddon",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "StremioAddon",
+      "description": "[!] Requires Setup \n- Allows you to use any Stremio addon by pasting their manifest.json url",
+      "language": "en",
+      "types": [
+        "TvSeries",
+        "Movie",
+        "Torrent"
+      ],
+      "version": 16,
+      "upstreamStatus": 1,
+      "hash": "sha256-97a8868c96b2e55219a39e7da2d45cac87b8fb64c4edd7c10e2fec8d63bba236",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:StremioX",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "StremioX",
+      "description": "[!] Requires Setup \n- StremioX allows you to use stream addons \n- StremioC allows you to use catalog addons",
+      "language": "en",
+      "types": [
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 27,
+      "upstreamStatus": 1,
+      "hash": "sha256-60cdfd8d7cb6fd7b33526a49cc35ecd30d68c2b18db2e26a7aa4555cf9c48b99",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:SuperStream",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "SuperStream",
+      "description": "SuperStream (Retrieve the cookie using Login with Google to properly utilize SuperStream.",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie",
+        "Cartoon",
+        "AnimeMovie"
+      ],
+      "version": 38,
+      "upstreamStatus": 1,
+      "hash": "sha256-68f9956976451811f8e19d50edfe8efe4681c4ab77bce93346a33e51146562bc",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Tamilblasters",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Tamilblasters",
+      "description": "Movies & Series",
+      "language": "ta",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-ec67b7378e2b5723edbe5b124dcbfdd9b5412e6568d7a92719b60963478790e2",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:ToonHub",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "ToonHub",
+      "description": "ToonHub4u Multi Language",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-d570531d04a1b56bc177dc6cab49c581b26a2a4552e848affa5d87da614e3a42",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Toonstream",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Toonstream",
+      "description": "ToonStream Multi Language",
+      "language": "hi",
+      "types": [
+        "AnimeMovie",
+        "Anime",
+        "Cartoon",
+        "TvSeries",
+        "Movie"
+      ],
+      "version": 11,
+      "upstreamStatus": 1,
+      "hash": "sha256-a766690cd47b5b2e9f96be8371b5af5419cdf3a966267473d0ac688f2d56b474",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:ToonTales",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "ToonTales",
+      "description": "ToonTales",
+      "language": "hi",
+      "types": [
+        "Cartoon"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-dee0bde396e5cc1a1f0675f8a2382dcfdf445b09cf8d076796441f3aa6e1e386",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Topcartoons",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Topcartoons",
+      "description": "Top Cartoon",
+      "language": "hi",
+      "types": [
+        "Cartoon"
+      ],
+      "version": 5,
+      "upstreamStatus": 1,
+      "hash": "sha256-c081f10e6d95fb50e45b3feecea5cfa7521323c950b2cc0b6a4577ede84255c1",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Topstreamfilm",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Topstreamfilm",
+      "description": "Filme  and Serien (German)",
+      "language": "de",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 9,
+      "upstreamStatus": 1,
+      "hash": "sha256-b81ce703c40dc99a71d5be0ddae2a216a6db0ca1840fd5cc008baf8d8ac27fcc",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:TorraStream",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "TorraStream",
+      "description": "#1 Best Extension – MultiAPI-Based with 4K Torrent Support (Debian) Use Extension Settings",
+      "language": "en",
+      "types": [
+        "Movie",
+        "Torrent",
+        "AsianDrama",
+        "TvSeries",
+        "Anime"
+      ],
+      "version": 97,
+      "upstreamStatus": 1,
+      "hash": "sha256-de09ce638f16fa48239e5541eba782bd006d5e9bef1e99256be8e8a25990211e",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:UHDmoviesProvider",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "UHDmoviesProvider",
+      "description": "Indian Multi-language 4K Provider",
+      "language": "en",
+      "types": [
+        "Movie",
+        "TvSeries"
+      ],
+      "version": 42,
+      "upstreamStatus": 1,
+      "hash": "sha256-c6b0a38398b55b93934a61236aba5e0dc69b791efe3cb2e7526ff1cbb34de5fc",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Ultima",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Ultima",
+      "description": "The ultimate All-in-One home screen to access all of your extensions at one place (You need to select/deselect sections in Ultima's settings to load other extensions on home screen)",
+      "language": "en",
+      "types": [
+        "All"
+      ],
+      "version": 70,
+      "upstreamStatus": 2,
+      "hash": "sha256-b7a095e5c1498e638c4d9dd56b25dd6cd2c573b8659984c943e23a48199a3a98",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:WatchParty",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "WatchParty",
+      "description": "Synchronized Watch Party: Watch movies and series together with real-time playback sync, persistent chat window, and host moderation.",
+      "language": "en",
+      "types": [
+        "All"
+      ],
+      "version": 2,
+      "upstreamStatus": 1,
+      "hash": "sha256-a400ec180aa15a949cdd8e9322c2530e0963a41d3896a89c5f38bcf09d89fbe8",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:XDMovies",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "XDMovies",
+      "description": "Watch Latest Movies",
+      "language": "en",
+      "types": [
+        "AsianDrama",
+        "TvSeries",
+        "Anime",
+        "Movie",
+        "Cartoon",
+        "AnimeMovie"
+      ],
+      "version": 27,
+      "upstreamStatus": 1,
+      "hash": "sha256-9f73e8521048beb5b5f4e606f77660629f2aff7882e04cf8e00c6ff36295bd33",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:YTS",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "YTS",
+      "description": "YTS Movies 4K Support (Torrent)",
+      "language": "en",
+      "types": [
+        "Movie",
+        "Torrent"
+      ],
+      "version": 11,
+      "upstreamStatus": 1,
+      "hash": "sha256-0a08763aceba0d1b0efba98eca6c747f894a6ba163e33c6394879170ddc4d939",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:ZDKSerials",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "ZDKSerials",
+      "description": "",
+      "language": "hi",
+      "types": [
+        "TvSeries"
+      ],
+      "version": 1,
+      "upstreamStatus": 1,
+      "hash": "sha256-678767b4ba1479e9636d3a4e014460f697f9f367c73b7395f9c1f439ed1305ca",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    },
+    {
+      "id": "phisher:Zinkmovies",
+      "repository": "Phisher",
+      "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "name": "Zinkmovies",
+      "description": "",
+      "language": "hi",
+      "types": [
+        "Movie",
+        "TvSeries",
+        "Anime"
+      ],
+      "version": 12,
+      "upstreamStatus": 1,
+      "hash": "sha256-7f7e1dbe17f400e8ed1d882bb480e227434145bbcfb6973cdb6aa56035a3d7e9",
+      "connection": "adapter-required",
+      "reason": "This Android extension needs a compatible V+ runtime or provider adapter. A Vidly account will not connect it."
+    }
+  ]
+}

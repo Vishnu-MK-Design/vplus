@@ -1,0 +1,805 @@
+{
+  "updated": "2026-10-30",
+  "description": "Source-backed fallback metadata for bundled numeric catalogue identities; not a live catalogue substitute.",
+  "sourceFiles": [
+    "docs/ATTRIBUTION.md"
+  ],
+  "records": {
+    "tv-116135": {
+      "key": "tv-116135",
+      "title": "Vikings: Valhalla",
+      "year": "2022",
+      "imdbId": "tt11311302",
+      "cast": [
+        {
+          "name": "Sam Corlett",
+          "character": "Leif Erikkson",
+          "photo": ""
+        },
+        {
+          "name": "Leo Suter",
+          "character": "Harald Sigurdsson",
+          "photo": ""
+        },
+        {
+          "name": "Frida Gustavsson",
+          "character": "Freydis Eriksdotter",
+          "photo": ""
+        },
+        {
+          "name": "Laura Berlin",
+          "character": "Emma of Normandy",
+          "photo": ""
+        },
+        {
+          "name": "David Oakes",
+          "character": "Earl Godwin",
+          "photo": ""
+        },
+        {
+          "name": "Bradley Freegard",
+          "character": "King Canute",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "TVmaze",
+        "url": "https://www.tvmaze.com/shows/45121",
+        "license": "CC BY-SA"
+      },
+      "genres": [
+        "Drama",
+        "Action",
+        "History"
+      ]
+    },
+    "movie-280180": {
+      "key": "movie-280180",
+      "title": "Beverly Hills Cop: Axel F",
+      "year": "2024",
+      "imdbId": "tt3083016",
+      "cast": [
+        {
+          "name": "Eddie Murphy",
+          "character": "Axel Foley",
+          "photo": ""
+        },
+        {
+          "name": "Joseph Gordon-Levitt",
+          "character": "Bobby Abbott",
+          "photo": ""
+        },
+        {
+          "name": "Taylour Paige",
+          "character": "Jane Saunders",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Netflix Tudum / TVmaze",
+        "url": "https://www.netflix.com/tudum/articles/beverly-hills-cop-axel-f-release-date-plot",
+        "license": "Photos: TVmaze"
+      },
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "trailer": {
+        "youtubeId": "KoxhkE_U3Ww",
+        "title": "Official trailer · Netflix",
+        "source": "https://www.youtube.com/watch?v=KoxhkE_U3Ww",
+        "publisher": "Netflix",
+        "type": "youtube",
+        "backgroundAllowed": false
+      }
+    },
+    "movie-1248226": {
+      "key": "movie-1248226",
+      "title": "Playdate",
+      "year": "2025",
+      "imdbId": "tt31425731",
+      "cast": [
+        {
+          "name": "Alan Ritchson",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Kevin James",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Banks Pierce",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt31425731/",
+        "license": ""
+      },
+      "genres": [
+        "Action",
+        "Comedy"
+      ]
+    },
+    "movie-693134": {
+      "key": "movie-693134",
+      "title": "Dune: Part Two",
+      "year": "2024",
+      "imdbId": "tt15239678",
+      "cast": [
+        {
+          "name": "Timothée Chalamet",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Zendaya",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Rebecca Ferguson",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt15239678/",
+        "license": ""
+      },
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "trailer": {
+        "youtubeId": "Way9Dexny3w",
+        "title": "Official trailer · Warner Bros. Pictures",
+        "source": "https://www.youtube.com/watch?v=Way9Dexny3w",
+        "publisher": "Warner Bros. Pictures",
+        "type": "youtube",
+        "backgroundAllowed": false
+      }
+    },
+    "movie-157336": {
+      "key": "movie-157336",
+      "title": "Interstellar",
+      "year": "2014",
+      "imdbId": "tt0816692",
+      "cast": [
+        {
+          "name": "Matthew McConaughey",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Anne Hathaway",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Jessica Chastain",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt0816692/",
+        "license": ""
+      },
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ]
+    },
+    "movie-27205": {
+      "key": "movie-27205",
+      "title": "Inception",
+      "year": "2010",
+      "imdbId": "tt1375666",
+      "cast": [
+        {
+          "name": "Leonardo DiCaprio",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Joseph Gordon-Levitt",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Elliot Page",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt1375666/",
+        "license": ""
+      },
+      "genres": [
+        "Adventure",
+        "Sci-Fi",
+        "Thriller"
+      ]
+    },
+    "movie-569094": {
+      "key": "movie-569094",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "year": "2023",
+      "imdbId": "tt9362722",
+      "cast": [
+        {
+          "name": "Shameik Moore",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Hailee Steinfeld",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Brian Tyree Henry",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt9362722/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
+    },
+    "movie-76341": {
+      "key": "movie-76341",
+      "title": "Mad Max: Fury Road",
+      "year": "2015",
+      "imdbId": "tt1392190",
+      "cast": [
+        {
+          "name": "Tom Hardy",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Charlize Theron",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Nicholas Hoult",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt1392190/",
+        "license": ""
+      },
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
+    },
+    "movie-414906": {
+      "key": "movie-414906",
+      "title": "The Batman",
+      "year": "2022",
+      "imdbId": "tt1877830",
+      "cast": [
+        {
+          "name": "Robert Pattinson",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Zoë Kravitz",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Jeffrey Wright",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt1877830/",
+        "license": ""
+      },
+      "genres": [
+        "Action",
+        "Crime",
+        "Mystery"
+      ]
+    },
+    "movie-872585": {
+      "key": "movie-872585",
+      "title": "Oppenheimer",
+      "year": "2023",
+      "imdbId": "tt15398776",
+      "cast": [
+        {
+          "name": "Cillian Murphy",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Emily Blunt",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Matt Damon",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt15398776/",
+        "license": ""
+      },
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ]
+    },
+    "tv-66732": {
+      "key": "tv-66732",
+      "title": "Stranger Things",
+      "year": "2016",
+      "imdbId": "tt4574334",
+      "cast": [
+        {
+          "name": "Millie Bobby Brown",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Finn Wolfhard",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Winona Ryder",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt4574334/",
+        "license": ""
+      },
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ]
+    },
+    "tv-1396": {
+      "key": "tv-1396",
+      "title": "Breaking Bad",
+      "year": "2008",
+      "imdbId": "tt0903747",
+      "cast": [
+        {
+          "name": "Bryan Cranston",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Aaron Paul",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Anna Gunn",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt0903747/",
+        "license": ""
+      },
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
+    },
+    "tv-119051": {
+      "key": "tv-119051",
+      "title": "Wednesday",
+      "year": "2022",
+      "imdbId": "tt13443470",
+      "cast": [
+        {
+          "name": "Jenna Ortega",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Emma Myers",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Hunter Doohan",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt13443470/",
+        "license": ""
+      },
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Fantasy"
+      ]
+    },
+    "tv-100088": {
+      "key": "tv-100088",
+      "title": "The Last of Us",
+      "year": "2023",
+      "imdbId": "tt3581920",
+      "cast": [
+        {
+          "name": "Bella Ramsey",
+          "character": "Ellie Williams",
+          "photo": ""
+        },
+        {
+          "name": "Pedro Pascal",
+          "character": "Joel Miller",
+          "photo": ""
+        },
+        {
+          "name": "Gabriel Luna",
+          "character": "Tommy Miller",
+          "photo": ""
+        },
+        {
+          "name": "Isabela Merced",
+          "character": "Dina",
+          "photo": ""
+        },
+        {
+          "name": "Young Mazino",
+          "character": "Jesse",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "TVmaze",
+        "url": "https://www.tvmaze.com/shows/46562",
+        "license": "CC BY-SA"
+      },
+      "genres": [
+        "Drama",
+        "Action",
+        "Horror"
+      ],
+      "trailer": {
+        "youtubeId": "uLtkt8BonwM",
+        "title": "Official trailer · Max",
+        "source": "https://www.youtube.com/watch?v=uLtkt8BonwM",
+        "publisher": "Max",
+        "type": "youtube",
+        "backgroundAllowed": false
+      }
+    },
+    "tv-95396": {
+      "key": "tv-95396",
+      "title": "Severance",
+      "year": "2022",
+      "imdbId": "tt11280740",
+      "cast": [
+        {
+          "name": "Adam Scott",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Britt Lower",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Zach Cherry",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt11280740/",
+        "license": ""
+      },
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ]
+    },
+    "tv-94605": {
+      "key": "tv-94605",
+      "title": "Arcane",
+      "year": "2021",
+      "imdbId": "tt11126994",
+      "cast": [
+        {
+          "name": "Kevin Alejandro",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Hailee Steinfeld",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Ella Purnell",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt11126994/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
+    },
+    "tv-96677": {
+      "key": "tv-96677",
+      "title": "Lupin",
+      "year": "2021",
+      "imdbId": "tt2531336",
+      "cast": [
+        {
+          "name": "Omar Sy",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt2531336/",
+        "license": ""
+      },
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ]
+    },
+    "tv-126308": {
+      "key": "tv-126308",
+      "title": "Shōgun",
+      "year": "2024",
+      "imdbId": "tt2788316",
+      "cast": [
+        {
+          "name": "Cosmo Jarvis",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Hiroyuki Sanada",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Anna Sawai",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt2788316/",
+        "license": ""
+      },
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ]
+    },
+    "anime-44511": {
+      "key": "anime-44511",
+      "title": "Chainsaw Man",
+      "year": "2022",
+      "imdbId": "tt13616990",
+      "cast": [
+        {
+          "name": "Kikunosuke Toya",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Ryan Colt Levy",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Tomori Kusunoki",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt13616990/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Action",
+        "Fantasy"
+      ]
+    },
+    "anime-9253": {
+      "key": "anime-9253",
+      "title": "Steins;Gate",
+      "year": "2011",
+      "imdbId": "tt1910272",
+      "cast": [
+        {
+          "name": "Mamoru Miyano",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Asami Imai",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Kana Hanazawa",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt1910272/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ]
+    },
+    "anime-5114": {
+      "key": "anime-5114",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "year": "2009",
+      "imdbId": "tt1355642",
+      "cast": [
+        {
+          "name": "Kent Williams",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Iemasa Kayumi",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Romi Park",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt1355642/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
+    },
+    "anime-21": {
+      "key": "anime-21",
+      "title": "ONE PIECE",
+      "year": "1999",
+      "imdbId": "tt0388629",
+      "cast": [
+        {
+          "name": "Mayumi Tanaka",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Akemi Okamura",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Kazuya Nakai",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt0388629/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
+    },
+    "anime-1535": {
+      "key": "anime-1535",
+      "title": "Death Note",
+      "year": "2006",
+      "imdbId": "tt0877057",
+      "cast": [
+        {
+          "name": "Mamoru Miyano",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Brad Swaile",
+          "character": "",
+          "photo": ""
+        },
+        {
+          "name": "Vincent Tong",
+          "character": "",
+          "photo": ""
+        }
+      ],
+      "castCredit": {
+        "name": "Cinemeta",
+        "url": "https://www.imdb.com/title/tt0877057/",
+        "license": ""
+      },
+      "genres": [
+        "Animation",
+        "Crime",
+        "Drama"
+      ]
+    }
+  }
+}

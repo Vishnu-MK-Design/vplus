@@ -1,0 +1,85 @@
+{
+  "name": "vplus-desktop",
+  "productName": "V+",
+  "version": "0.6.6",
+  "private": true,
+  "description": "V+ PC media discovery and desktop player \u2014 source review edition",
+  "author": "Vishnu MK",
+  "main": "main.cjs",
+  "scripts": {
+    "prepare:app": "node prepare.mjs",
+    "start": "npm run prepare:app && electron .",
+    "test": "node --test tests/*.test.cjs",
+    "pack": "npm run prepare:app && electron-builder --win nsis --x64"
+  },
+  "build": {
+    "appId": "com.vishnu.vidly.desktop",
+    "productName": "V+",
+    "directories": {
+      "output": "../dist/windows"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "player-preload.cjs",
+      "routes.cjs",
+      "preview-cache.cjs",
+      "playback-providers.cjs",
+      "source-health.cjs",
+      "generated/**/*",
+      "package.json",
+      "icon.png",
+      "playback-plan.cjs",
+      "extension-player.cjs",
+      "subtitles.cjs",
+      "tests/subtitle-sustain.cjs",
+      "tests/player-platforms.cjs",
+      "tests/player-update.cjs",
+      "tests/provider-audit.cjs",
+      "tests/inspect-sources.cjs",
+      "tests/source-status.cjs",
+      "cinematic-metadata.mjs",
+      "cinematic-fallback.json",
+      "youtube-origin.cjs",
+      "cinematic-media/**/*",
+      "tests/cinematic.cjs",
+      "trailer-files.cjs",
+      "anime-catalogue.mjs",
+      "tests/anime-ux.cjs",
+      "collections.mjs",
+      "episode-tracker.cjs",
+      "segments.mjs",
+      "tests/ux-batch.cjs",
+      "episode-next.cjs",
+      "tests/ux-player.cjs",
+      "window-controls.cjs",
+      "tests/window-hero.cjs",
+      "tests/genre-navigation.cjs",
+      "tests/approved-providers.cjs",
+      "tests/anime-categories.cjs",
+      "content-policy.cjs",
+      "tests/mature-content.cjs"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png",
+      "signAndEditExecutable": true
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "runAfterFinish": true,
+      "artifactName": "VPlus-Setup-${version}.${ext}",
+      "include": "build/installer.nsh"
+    }
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0",
+    "jsdom": "26.1.0"
+  },
+  "dependencies": {
+    "hls.js": "1.7.3"
+  }
+}
